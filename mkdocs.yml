@@ -1,0 +1,35 @@
+# Nom du projet
+site_name: Nom de votre projet
+
+# URL de base (optionnel pour Read the Docs)
+# site_url: https://votredocumentation.readthedocs.io
+
+# Thème utilisé (par défaut "readthedocs")
+theme:
+  name: readthedocs
+
+# Répertoire contenant les fichiers Markdown
+docs_dir: docs
+
+# Configuration des pages de la documentation
+nav:
+  - Accueil: index.md
+
+
+# Extensions Markdown
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - footnotes
+  - tables
+
+# Plugins
+plugins:
+  - search
+
+# Fichiers statiques (optionnel)
+# extra_css:
+#   - styles/extra.css
+# extra_javascript:
+#   - scripts/extra.js
