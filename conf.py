@@ -78,3 +78,16 @@ html_theme_options = {
 
 # pour le fonctionnement d'intersphinx il faut désactiver la vérification des certificats
 tls_verify = False
+
+myst_enable_extensions = [
+    "amsmath",         # Support pour les maths avec AMS
+    "dollarmath",      # Support pour `$...$` en inline math
+    "html_admonition", # Prend en charge les notes
+    "html_image",      # Prend en charge les balises d'image
+    "linkify",         # Convertit automatiquement les URLs en liens
+    "substitution",    # Support pour les substitutions
+    "replacements",    # Support pour les remplacements
+]
+
+# Profondeur maximale des tables des matières générées
+myst_number_code_blocks = True
