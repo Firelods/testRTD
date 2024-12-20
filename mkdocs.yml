@@ -23,6 +23,13 @@ markdown_extensions:
   - admonition
   - footnotes
   - tables
+  - myst_parser
+  - myst:
+      enable_extensions:
+        - colon_fence
+        - deflist
+        - linkify
+        - substitution
 
 # Plugins
 plugins:
