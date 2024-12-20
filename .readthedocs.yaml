@@ -10,9 +10,9 @@ build:
   tools:
     python: "3.13"
 
-python:
-  install:
-    - requirements: requirements.txt
+# python:
+#   install:
+#     - requirements: requirements.txt
 
 # Build documentation with Mkdocs
 mkdocs:

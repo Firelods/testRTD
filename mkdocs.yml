@@ -23,12 +23,11 @@ markdown_extensions:
   - admonition
   - footnotes
   - tables
-  - myst_parser
 
 # Plugins
 plugins:
   - search
-  - myst_parser
+  - myst
 
 
 # Fichiers statiques (optionnel)
